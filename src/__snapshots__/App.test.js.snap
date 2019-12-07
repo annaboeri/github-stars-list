@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Component should render app components correctly 1`] = `
+<div
+  className="app"
+>
+  <Header />
+  <RepoListContainer />
+  <Footer />
+</div>
+`;

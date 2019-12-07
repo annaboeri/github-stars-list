@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RepoListContainer should render error state 1`] = `
+<section
+  className="loading-container"
+>
+  <div
+    className="fa-3x"
+  >
+    <i
+      className="fas fa-spinner fa-pulse"
+    />
+  </div>
+  <p>
+    Loading...
+  </p>
+</section>
+`;
+
+exports[`RepoListContainer should render loading state 1`] = `
+<section
+  className="loading-container"
+>
+  <div
+    className="fa-3x"
+  >
+    <i
+      className="fas fa-spinner fa-pulse"
+    />
+  </div>
+  <p>
+    Loading...
+  </p>
+</section>
+`;
+
+exports[`RepoListContainer should render repos 1`] = `
+<section
+  className="loading-container"
+>
+  <div
+    className="fa-3x"
+  >
+    <i
+      className="fas fa-spinner fa-pulse"
+    />
+  </div>
+  <p>
+    Loading...
+  </p>
+</section>
+`;

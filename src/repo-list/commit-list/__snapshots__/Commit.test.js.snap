@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Commit Component should render correctly 1`] = `
+<li
+  className="commit"
+>
+  <a
+    href="/"
+  >
+    <p
+      className="ellipsis commit-message"
+    >
+      <span>
+        my commit message
+      </span>
+    </p>
+  </a>
+  <p>
+    <i
+      className="far fa-clock"
+    />
+    6:47:48 AM
+    <i
+      class="fas fa-user-circle"
+    />
+    my name
+  </p>
+</li>
+`;

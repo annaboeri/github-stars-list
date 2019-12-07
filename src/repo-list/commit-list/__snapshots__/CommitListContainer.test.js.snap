@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CommitListContainer should render commits 1`] = `
+<section
+  className="loading-container"
+>
+  <i
+    className="fas fa-spinner fa-pulse"
+  />
+  <p>
+    Loading...
+  </p>
+</section>
+`;
+
+exports[`CommitListContainer should render error state 1`] = `
+<section
+  className="loading-container"
+>
+  <i
+    className="fas fa-spinner fa-pulse"
+  />
+  <p>
+    Loading...
+  </p>
+</section>
+`;
+
+exports[`CommitListContainer should render loading state 1`] = `
+<section
+  className="loading-container"
+>
+  <i
+    className="fas fa-spinner fa-pulse"
+  />
+  <p>
+    Loading...
+  </p>
+</section>
+`;

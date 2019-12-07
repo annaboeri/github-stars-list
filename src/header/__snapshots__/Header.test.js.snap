@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Component should render correctly 1`] = `
+<header
+  className="header"
+>
+  <a
+    className="logo-container"
+    href="https://github.com/"
+  >
+    <img
+      alt="github logo"
+      src="github-logo.png"
+    />
+  </a>
+  <div>
+    <h1>
+      Github Stars
+    </h1>
+    <h2>
+      List of the Most Popular Github Repos
+    </h2>
+  </div>
+</header>
+`;

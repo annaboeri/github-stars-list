@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Component should render correctly 1`] = `
+<footer
+  className="footer"
+>
+  <p>
+    <span>
+      Created by
+    </span>
+    <a
+      className="logo-container"
+      href="https://github.com/annaboeri"
+    >
+      Anna Boeri
+    </a>
+  </p>
+  <p>
+    <span>
+      Powered by
+    </span>
+    <a
+      className="logo-container"
+      href="https://github.com/"
+    >
+      <img
+        alt="github logo"
+        className="footer-logo"
+        src="github-logo-footer.png"
+      />
+    </a>
+  </p>
+</footer>
+`;

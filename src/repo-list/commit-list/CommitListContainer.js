@@ -17,8 +17,9 @@ class CommitListContainer extends Component {
   }
 
   calcYesterdaysDate() {
-    const today = new Date().getTime();
-    const yesterday = new Date(today - (24 * 60 * 60 * 1000));
+    const today = new Date();
+    const todayInMilliseconds = today.getTime();
+    const yesterday = new Date(todayInMilliseconds - (24 * 60 * 60 * 1000));
     return yesterday.toISOString();
   }
 

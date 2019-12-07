@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RepoCard Component should render correctly 1`] = `
+<li
+  className="flip-card "
+>
+  <div
+    className="card-content"
+  >
+    <div
+      className="flip-card-front "
+    >
+      <h3>
+        My Repo Name
+      </h3>
+      <p
+        className="ellipsis"
+      />
+      <a
+        className="repo-link"
+        href="/"
+      >
+        <i
+          className="fab fa-github"
+        />
+        View Repo
+      </a>
+      <p>
+        <i
+          className="fas fa-star"
+        />
+        1
+        <i
+          className="fas fa-code-branch"
+        />
+        2
+      </p>
+      <button
+        className="view-commits-btn"
+        onClick={[Function]}
+      >
+        View Recent Commmits
+      </button>
+    </div>
+    <div
+      className="flip-card-back"
+    >
+      <button
+        className="back-btn"
+        onClick={[Function]}
+      >
+        <i
+          className="fas fa-arrow-left"
+        />
+         Back
+      </button>
+    </div>
+  </div>
+</li>
+`;

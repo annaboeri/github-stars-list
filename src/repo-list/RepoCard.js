@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import CommitListContainer from './CommitListContainer';
+import CommitListContainer from './commit-list/CommitListContainer';
 import './RepoListContainer.css';
 
 const RepoCard = props => {
@@ -21,7 +21,7 @@ const RepoCard = props => {
             <i className="fas fa-code-branch"></i>{repo.forks_count.toLocaleString()}
           </p>
           <button
-            href="#"
+            className="view-commits-btn"
             onClick={(prevState) => setShowCommitList(!showCommitList)}
           >
             View Recent Commmits
@@ -29,7 +29,7 @@ const RepoCard = props => {
         </div>
         <div className="flip-card-back">
           <button
-            href="#"
+            className="back-btn"
             onClick={(prevState) => setShowCommitList(!showCommitList)}
           >
             <i className="fas fa-arrow-left"></i> Back
