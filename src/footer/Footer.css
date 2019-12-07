@@ -1,0 +1,53 @@
+/* Footer Styles */
+.footer {
+  align-items: center;
+  background-color: var(--gray-dark);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px 0;
+}
+
+.footer p {
+  color: white;
+  margin: 5px;
+}
+
+.footer p > * {
+  vertical-align: middle;
+}
+
+.footer a, .footer a:visited {
+  color: white;
+}
+
+.footer a:hover {
+  color: var(--green-medium);
+}
+
+.logo-container {
+  margin: 0 5px;
+}
+
+.logo-container:hover .fa-github {
+  color: var(--green-medium);
+}
+
+
+.footer-logo {
+  height: 25px;
+  padding-top: 2px;
+}
+
+
+@media screen and (max-width: 40em) {
+  .footer {
+    flex-direction: column;
+    padding: 20px 10px;
+  }
+  .logo-conatiner {
+    margin-bottom: 0;
+    width: 75px;
+  }
+}

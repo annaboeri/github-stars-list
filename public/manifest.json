@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "GitHub Stars",
+  "name": "GitHub Stars - List of the Most Starred Repos on GitHub",
   "icons": [
     {
       "src": "favicon.ico",
