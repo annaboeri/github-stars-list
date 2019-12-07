@@ -32,7 +32,7 @@
 
 .flip-card {
   background-color: transparent;
-  height: 250px;
+  height: 275px;
   margin: 1em auto;
   perspective: 1000px;
   width: 85vw;
@@ -41,8 +41,7 @@
 .flip .card-content {
   transform: rotateY(180deg);
   -webkit-transform: rotateY(180deg); /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */
-      -ms-transform: rotateY(180deg); /* IE 9 */
-          transform: rotateY(180deg); /* IE 10, Fx 16+, Op 12.1+ */
+    -ms-transform: rotateY(180deg); /* IE 9 */
 }
 
 .card-content {
@@ -64,7 +63,7 @@
 }
 
 .card-content p {
-  font-size: 80%;
+  font-size: 16px;
   margin: 1em;
 }
 
@@ -93,6 +92,14 @@
 
 .repo-link:hover .fa-github {
   color: var(--green-medium);
+}
+
+/* Hack for Safari to properly display flip animation */
+@-moz-document url-prefix() {
+ .flip-card-front.hide {
+   transition: 0.2s;
+   visibility: hidden;
+ }
 }
 
 /* Card Media Queries */

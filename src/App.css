@@ -72,8 +72,8 @@ button:focus {
 
 .ellipsis {
   display: -webkit-box;
-  line-height: normal;        /* IE fallback */
-  max-height: normal*3;       /* IE fallback */
+  line-height: 20px;     /* IE Safari fallback */
+  max-height: 60px;       /* IE Safari fallback */
   overflow: hidden;
   text-overflow: ellipsis;
   -webkit-box-orient: vertical;

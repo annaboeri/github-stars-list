@@ -13,7 +13,7 @@ const Commit = props => {
       </a>
       <p>
         <i className="far fa-clock"></i>{commitDate}
-        <i class="fas fa-user-circle"></i>{commit.author.name}
+        <i className="fas fa-user-circle"></i>{commit.author.name}
       </p>
     </li>
   );
