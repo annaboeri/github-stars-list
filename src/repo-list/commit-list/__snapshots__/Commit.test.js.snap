@@ -21,7 +21,7 @@ exports[`Commit Component should render correctly 1`] = `
     />
     6:47:48 AM
     <i
-      class="fas fa-user-circle"
+      className="fas fa-user-circle"
     />
     my name
   </p>
